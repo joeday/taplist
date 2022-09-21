@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import styles from "./Beer.module.css";
 import Image from "next/future/image";
+import SlopeSymbol from "./SlopeSymbol";
 
 export default function Beer(props) {
   const {
@@ -30,7 +31,7 @@ export default function Beer(props) {
         <div className={styles.metaBottom}>
           <div className={styles.abv}>{abv} ABV</div>
           <div className={styles.ibu}>{ibu} IBU</div>
-          <div className={styles.classification}>{classification}</div>
+          <div className={styles.classification}>{SlopeSymbol({classification})}</div>
         </div>
       </div>
     </section>

@@ -23,13 +23,15 @@ export default function Beer(props) {
         width={296}
         alt={title}
       />
-      <div className={styles.metaTop}>Tap &#35;{tap}</div>
-      <div className={styles.beerName}>{title}</div>
-      <div className={styles.beerDescription}>{description}</div>
-      <div className={styles.metaBottom}>
-        <div className={styles.abv}>{abv} ABV</div>
-        <div className={styles.ibu}>{ibu} IBU</div>
-        <div className={styles.classification}>{classification}</div>
+      <div className={styles.contentContainer}>
+        <div className={styles.metaTop}>Tap &#35;{tap}</div>
+        <div className={styles.beerName}>{title}</div>
+        <div className={styles.beerDescription}>{description}</div>
+        <div className={styles.metaBottom}>
+          <div className={styles.abv}>{abv} ABV</div>
+          <div className={styles.ibu}>{ibu} IBU</div>
+          <div className={styles.classification}>{classification}</div>
+        </div>
       </div>
     </section>
   );

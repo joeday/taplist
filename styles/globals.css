@@ -2,8 +2,24 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: skolar-sans-latin-extended, sans-serif;
+  font-style: normal;
+
+  --color-primary-black: #111;
+  --color-primary-white: #fff;
+  --color-accent: #243957;
+  --color-lt-green: #9bfe6d;
+  --color-lt-blue: #72a9fb;
+  --color-gold: #9d692f;
+
+  --text-size-title: 48px;
+  --text-size-main: 16px;
+  --text-size-alt: 20px;
+
+  --font-family-primary: skolar-sans-latin-extended, sans-serif;
+  --font-family-secondary: skolar-sans-latin-compressed, sans-serif;
+  --font-weight-normal: 500;
+  --font-weight-bold: 800;
 }
 
 a {

@@ -1,0 +1,56 @@
+.beerContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 305px;
+  padding: 0 0 0 344px;
+  margin: 0;
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--text-size-main);
+  color: var(--color-primary-white);
+}
+
+.beerImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.metaTop {
+  margin-top: 24px;
+  font-size: var(--text-size-alt);
+  line-height: 1.3;
+}
+
+.beerName {
+  font-family: var(--font-family-primary);
+  font-weight: 800;
+  font-size: var(--text-size-title);
+  line-height: 1.29166667;
+  margin-top: 12px;
+}
+
+.beerDescription {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  margin-top: 12px;
+  line-height: 1.3125;
+  flex-grow: 1;
+}
+
+.metaBottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: 24px;
+  font-size: var(--text-size-alt);
+  line-height: 1.3;
+}
+
+.abv,
+.ibu,
+.classification {
+  margin-right: 12px;
+}

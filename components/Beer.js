@@ -44,7 +44,7 @@ Beer.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   ibu: PropTypes.number,
-  abv: PropTypes.number,
+  abv: PropTypes.string,
   classification: PropTypes.number,
   imageName: PropTypes.string,
 };

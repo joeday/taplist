@@ -1,9 +1,9 @@
 import Image from "next/future/image";
 
 export default function SlopeSymbol(props) {
-
+  const { classification } = props;
   let slopeSymbol;
-  switch(props) {
+  switch(classification) {
     case 0:
       slopeSymbol = "/images/greendot.svg";
       break;
@@ -16,12 +16,11 @@ export default function SlopeSymbol(props) {
     case 3:
       slopeSymbol = "/images/doubleblackdiamond.svg";
   }
-
   return (
     <Image
       src={slopeSymbol}
       height={18}
-      width={18}
+      width={30}
       alt="Beer classification symbol"
     />
   )
